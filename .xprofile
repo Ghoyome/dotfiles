@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# kb
+setxkbmap -option caps:escape
+xset r rate 200 20
+setxkbmap us &
+
+# Wallpaper
+xwallpaper --center $HOME/.images/ThornsWallpaper.jpg
+
+# Remove cursor on type
+xbanish >/dev/null 2>&1 < /dev/null &
+
