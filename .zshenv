@@ -5,6 +5,8 @@ export HIST_STAMPS="yyyy-mm-dd"
 
 export LC_ALL=C
 
+export PATH="$PATH:$HOME/.local/bin"
+
 export LD_LIBRARY_PATH=/usr/local/lib
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
@@ -15,9 +17,6 @@ export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
 export MANPAGER="nvim +Man!"
 export MANWIDTH=999
-
-export PATH="$PATH:$HOME/.local/bin"
-export PATH="$PATH:/usr/local/"
 
 export PATH="$HOME/.node_modules/bin:$PATH"
 export npm_config_prefix=~/.node_modules
