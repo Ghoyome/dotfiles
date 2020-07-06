@@ -6,8 +6,8 @@ xset r rate 200 20
 setxkbmap us &
 
 # Wallpaper
-xwallpaper --center $HOME/.images/ThornsWallpaper.jpg
+#xwallpaper --center $HOME/.images/ThornsWallpaper.jpg
+dwm-status $HOME/.config/dwm-status/status.json &
 
 # Remove cursor on type
 xbanish >/dev/null 2>&1 < /dev/null &
-
